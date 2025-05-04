@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Global network empowering disabled women and girls through resources, advocacy, and community.">
+    <meta name="keywords" content="disabled women, disability rights, accessibility, inclusive education">
+    <title>EmpowerAbility | For Disabled Women & Girls</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="dark-mode.css" media="(prefers-color-scheme: dark)">
+
+</head>
+<body>
+    <!-- Accessibility Skip Nav -->
+    <a class="skip-nav" href="#main-content">Skip to Content</a>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-flex">
+                <a href="index.html" class="logo">
+                    <span aria-hidden="true">♿</span>
+                    <strong>Empower</strong>Ability
+                </a>
+                
+                <nav aria-label="Main navigation">
+                    <button id="menu-toggle" aria-expanded="false" aria-controls="main-menu">
+                        <span class="sr-only">Menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul id="main-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="stories.html">Stories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><button id="dark-mode-toggle" aria-label="Toggle dark mode">
+                            <i class="fas fa-moon"></i>
+                        </button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="hero-heading">Breaking Barriers, <span>Building Futures</span></h1>
+                <p class="lead">We empower disabled women and girls through education, advocacy, and community support.</p>
+                <div class="cta-buttons">
+                    <a href="#resources" class="btn btn-primary">Explore Resources</a>
+                    <a href="#join" class="btn btn-secondary">Join Our Network</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar" aria-labelledby="stats-heading">
+        <div class="container">
+            <h2 id="stats-heading" class="sr-only">Our Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12000">0</span>
+                    <span class="stat-label">Community Members</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="350">0</span>
+                    <span class="stat-label">Workshops Held</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="42">0</span>
+                    <span class="stat-label">Countries Reached</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Featured Programs -->
+        <section class="featured-programs" aria-labelledby="programs-heading">
+            <div class="container">
+                <h2 id="programs-heading">Our Key Initiatives</h2>
+                <div class="programs-grid">
+                    <article class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                        </div>
+                        <h3>Tech Accessibility Program</h3>
+                        <p>Training disabled women in assistive technologies and STEM careers. Over 500 graduates in 2023.</p>
+                        <a href="#" class="program-link">Learn more <span class="sr-only">about Tech Accessibility Program</span></a>
+                    </article>
+                    
+                    <article class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-gavel" aria-hidden="true"></i>
+                        </div>
+                        <h3>Legal Advocacy</h3>
+                        <p>Fighting for disability rights in employment, healthcare, and education policies.</p>
+                        <a href="#" class="program-link">Learn more <span class="sr-only">about Legal Advocacy</span></a>
+                    </article>
+                    
+                    <article class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                        </div>
+                        <h3>Mental Health Support</h3>
+                        <p>Free counseling and peer support groups tailored for disabled women.</p>
+                        <a href="#" class="program-link">Learn more <span class="sr-only">about Mental Health Support</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News -->
+        <section class="latest-news" aria-labelledby="news-heading">
+            <div class="container">
+                <h2 id="news-heading">Latest Updates</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <time datetime="2023-11-15">May 03, 2025</time>
+                        <h3>New Empowerment Program Launched</h3>
+                        <p>We have launched a new skills training program for young women with disabilities in tailoring and ICT. Registration is now open!.</p>
+                        <a href="#" class="news-link">Read announcement</a>
+                    </article>
+                    
+                    <article class="news-card">
+                        <time datetime="2023-10-28">june 28, 2025</time>
+                        <h3>2025 Disability Rights Report Published</h3>
+                        <p>Our annual analysis of global progress for disabled women's rights is now available.</p>
+                        <a href="#" class="news-link">Download report</a>
+                    </article>
+                </div>
+                <a href="#" class="view-all">View all news <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="join" aria-labelledby="newsletter-heading">
+            <div class="container">
+                <div class="newsletter-flex">
+                    <div class="newsletter-content">
+                        <h2 id="newsletter-heading">Join Our Movement</h2>
+                        <p>Subscribe to receive resources, event invites, and advocacy updates.</p>
+                    </div>
+                    <form class="newsletter-form" aria-label="Newsletter subscription">
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" aria-labelledby="footer-heading">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3 id="footer-heading">EmpowerAbility</h3>
+                    <p>Advancing rights and opportunities for disabled women and girls since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="resources.html">Resource Library</a></li>
+                        <li><a href="stories.html">Success Stories</a></li>
+                        <li><a href="contact.html">Get Involved</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 kampala, Street 100<br>
+                        kampala City, GC 1234</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+18005551234">+256 707852710</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@empowerability.org">info@empowerability.org</a></p>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 EmpowerAbility. All rights reserved.</p>
+                <ul class="footer-legal">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Accessibility Statement</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="dark-mode.js"></script>
+</body>
+</html>
